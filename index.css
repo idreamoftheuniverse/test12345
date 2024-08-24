@@ -1,0 +1,40 @@
+body {
+    background-color: #3c327b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .scrolling-box {
+    border-style: solid;
+    background-color: #eaeaea;
+    display: block;
+    width: 200px;
+    height: 200px;
+    padding: 1em;
+    overflow-y: scroll;
+    text-align: center;
+  }
+
+  #input_row{
+    columns: 2;
+  }
+
+  #input_field{
+    width: 30px;
+    margin-left: 25px;
+  }
+
+  /* #input_column:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+  
+  output_line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 20%; */
+  }
